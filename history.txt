@@ -1,0 +1,271 @@
+    1  git clone https://github.com/douglascraigschmidt/LiveLessons.git
+    2  git clone https://github.com/douglascraigschmidt/LiveLessons.git
+    3  git clone https://github.com/kittylyst/optimizing-java.git
+    4  git config --global user.email "pintu.se.ju@gmail.com"
+    5  git config --global user.name "Pintu Das"
+    6  ssh-keygen -t rsa -b 4096 -C "pintu.se.ju@gmail.com"
+    7  ls ~/.ssh/
+    8  cat ~/.ssh/id_rsa.pub 
+    9  git remote add origin https://github.com/yefeyfe/profiles-rest-api.git
+   10  git push -u origin master
+   11  git clone https://github.com/victorrentea/structural-patterns-spring.git
+   12  ls
+   13  pwd
+   14  ls -lrt
+   15  ls -la
+   16  ls -lart
+   17  go env
+   18  go version
+   19  go help
+   20  go help env
+   21  go help gopath
+   22  cd ../Documents/goworkspace/
+   23  mkdir bin pkg src
+   24  go env
+   25  go env
+   26  go get -d github.com/GoesToEleven/go-programming
+   27  go get -d github.com/GoesToEleven/GolangTraining
+   28  go get -d github.com/GoesToEleven/golang-web-dev
+   29  cd github.com/GoesToEleven/go-programming/code_samples/011-code-samples/
+   30  ls
+   31  cd ..
+   32  cd 012-updated-version/
+   33  cls
+   34  cd 001-hello-world/
+   35  go run main.go 
+   36  go build
+   37  ./001-hello-world.exe 
+   38  go install main.go 
+   39  go env
+   40  go install main.go 
+   41  main.exe
+   42  git clone https://github.com/DataStax-Academy/cassandra-workshop-series.git
+   43  cls
+   44  git clone https://github.com/DataStax-Academy/cassandra-workshop-series.git
+   45  git clone https://github.com/DataStax-Academy/cassandra-workshop-series.git
+   46  cd cassandra-workshop-series/
+   47  git clone https://github.com/jeffreyscarpenter/reservation-service.git
+   48  cd reservation-service/
+   49  mvn clean package
+   50  git clone https://github.com/zeebe-io/zeebe-docker-compose.git
+   51  cd zeebe-docker-compose/
+   52  docker-compose up
+   53  cd simple-monitor/
+   54  cls
+   55  docker-compose up
+   56  docker-compose up
+   57  cd ../../zeebe-broker-0.20.0/
+   58  tree -d
+   59  ll
+   60  ./bin/broker
+   61  ./bin/zbctl --insecure create worker payment-service --handler cat &
+   62  ./bin/zbctl --insecure create worker inventory-service --handler cat &
+   63  ll
+   64  git pull
+   65  docker-compose down
+   66  git checkout 0.23.0
+   67  git checkout master
+   68  cd operate
+   69  docker-compose up
+   70  cd ..
+   71  cd simple-monitor/
+   72  docker-compose up
+   73  git clone https://github.com/vladimir-dejanovic/dive-into-graphql-in-java.git
+   74  ll
+   75  git clone https://github.com/vladimir-dejanovic/graphql-mock-server.git
+   76  git clone https://github.com/PacktPublishing/Learning-RxJava-Second-Edition.git
+   77  git config user.name
+   78  git config user.email
+   79  git config user.name "Pintu Das"
+   80  git init
+   81  git config user.name "Pintu Das"
+   82  git config user.email "das.pintu@tcs.com"
+   83  git remote add origin https://gitlab.com/pintu-tcs/demo.git
+   84  git status
+   85  git add .
+   86  git status
+   87  git commit -m "Initial commit"
+   88  git push -u origin master
+   89  git checkout -b us1
+   90  git status
+   91  git add .
+   92  git commit -m "Apache commons lang-3 dependency added"
+   93  git push
+   94  git push --set-upstream origin us1
+   95  git status
+   96  git add .
+   97  git commit -m "server port changed to 9090"
+   98  git push
+   99  git logs
+  100  git log
+  101  git checkout master
+  102  git pull
+  103  git log
+  104  git branch 
+  105  git checkout -b us2
+  106  git status 
+  107  git commit -m "application is given a name"
+  108  git status 
+  109  git commit -m "context path is set to /demo"
+  110  git push --set-upstream origin us2
+  111  git logs
+  112  git log
+  113  git status 
+  114  git add .
+  115  git commit -m "application is given a name"
+  116  git add .
+  117  git commit -m "context path is set to /demo"
+  118  git log
+  119  git push
+  120  cd ..
+  121  cd ..
+  122  mkdir 2020-07-29-git-dan
+  123  cd 2020-07-29-git-dan/
+  124  pwd
+  125  git init
+  126  git config --global user.name
+  127  git config --global user.email
+  128  git config --global
+  129  git config --global -get-all
+  130  git config --global --get-all
+  131  ls -a
+  132  git config --global --list
+  133  git status
+  134  git config core.editor nano
+  135  nano README.md
+  136  git status 
+  137  git add README.md 
+  138  git status 
+  139  git commit -m
+  140  git commit
+  141  git status
+  142  git log
+  143  nano README.md 
+  144  git add README.md 
+  145  git status 
+  146  git commit -m "talk about status, add, commit"
+  147  git log
+  148  git status
+  149  nano README.md 
+  150  git status
+  151  git diff README.md
+  152  git add README.md 
+  153  git status
+  154  git diff
+  155  git diff --staged
+  156  git commit -m "add title"
+  157  git status
+  158  git log
+  159  git log --oneline 
+  160  git diff HEAD~2
+  161  git diff ce4bc
+  162  nano README.md 
+  163  git status
+  164  git add README.md 
+  165  git status
+  166  git diff --staged 
+  167  git status
+  168  git commi -m "talked about log, diff and HEAD"
+  169  git commit -m "talked about log, diff and HEAD"
+  170  git log --oneline
+  171  git diff ce4bc38 README.md
+  172  git checkout HEAD~3 README.md
+  173  git log --oneline
+  174  cat README.md 
+  175  git status
+  176  git restore --staged README.md
+  177  git status
+  178  cat README.md 
+  179  git restore README.md
+  180  git status 
+  181  git log
+  182  git checkout ce4bc38
+  183  cat README.md 
+  184  git log --oneline
+  185  git status 
+  186  git checkout master
+  187  git log --oneline
+  188  git checkout ce4bc38
+  189  git log --oneline --all
+  190  git checkout master
+  191  git log --oneline --all
+  192  git remote add origin https://github.com/yefeyfe/2020-07-29-git-dan.git
+  193  git push -u origin master
+  194  git remote -v
+  195  git status
+  196  nano analysis/README.md
+  197  git status
+  198  nano data/.gitkeep
+  199  git status
+  200  nano .gitignore
+  201  git status
+  202  git add -f data/.gitkeep 
+  203  git status
+  204  git add .
+  205  git status
+  206  git commit -m "ignore file and folders"
+  207  git push origin master
+  208  cat README.md 
+  209  git pull origin master
+  210  git log --oneline 
+  211  nano README.md 
+  212  git status
+  213  git add .
+  214  git commit -m "change title on the local computer"
+  215  git push origin master
+  216  git pull origin master
+  217  ssh-keygen -t ed25519 -C "pintu.se.ju@gmail.com"
+  218  eval `ssh-agent -s`
+  219  ssh-add ~/.ssh/id_ed25519
+  220  ssh-add ~/.ssh/id_ed25519
+  221  clip < ~/.ssh/id_ed25519.pub
+  222  ssh-add ~/.ssh/id_ed25519
+  223  ps -a
+  224  cd ~/.ssh/
+  225  ls -lrt
+  226  clip < ~/.ssh/id_rsa.pub 
+  227  git remote rm origin
+  228  cd ~/Desktop/2020-07-29-git-dan/
+  229  git remote rm origin
+  230  git remote add origin git@github.com:yefeyfe/2020-07-29-git-dan.git
+  231  git status
+  232  nano README.md 
+  233  git status
+  234  git add README.md 
+  235  git status
+  236  git commit -m "fix conflicts"
+  237  git push origin master
+  238  git remote -v
+  239  history
+  240  git clone git@github.com:yefeyfe/2020-07-30-git_collaboration-dan.git
+  241  cd 2020-07-30-git_collaboration-dan/
+  242  git remote -v
+  243  nano README.md 
+  244  git status
+  245  git diff
+  246  nano README.md 
+  247  git diff
+  248  git add .
+  249  git diff --staged
+  250  git commit -m "talk about git clone"
+  251  git push origin main
+  252  git branch my_first_branch
+  253  git log --oneline
+  254  git branch -a
+  255  git checkout my_first_branch 
+  256  git status
+  257  git branch -a
+  258  nano README.md 
+  259  git status
+  260  git add README.md 
+  261  git status
+  262  git commit -m "create and move to branch"
+  263  git status
+  264  git log --oneline
+  265  git checkout main 
+  266  git log --oneline
+  267  git checkout my_first_branch 
+  268  git push origin my_first_branch 
+  269  git log --oneline
+  270  git diff 31db
+  271  history > history.txt
