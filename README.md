@@ -1,4 +1,4 @@
-# 2020-07-30-git_collaboration-dan
+# git-collaboration-dan
 Git collaboration notes
 
 - `git clone <utl>`: downloads the repository from the web to your local computer
