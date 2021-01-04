@@ -1,5 +1,8 @@
-# git-collaboration-dan
+# 2020/07/30: Git Collaboration
+
 Git collaboration notes
+
+## Branches
 
 - `git clone <utl>`: downloads the repository from the web to your local computer
     - make sure you don't nest this command into another repository
@@ -13,6 +16,7 @@ Git collaboration notes
 - `git switch -c <branch_name>`: create amd move to branch in 1 step
     - `git chaeckout -b <branch_name>`
 
+## Pull Requests (Online Merge)
 - `git log --oneline --graph --all --decorate`: shows you your git history tree
     - you can look up how to set this as an git alias
 	
